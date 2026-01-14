@@ -52,7 +52,7 @@ function App() {
         onChange={(e) => setUrl(e.target.value)} />
 
       <button onClick={handleShorten}
-        className='btn btn-primary w-full sm:auto'> disabled = {loading}
+        className='btn btn-primary w-full sm:auto' disabled = {loading}>
         Shorten
       </button>
     </div>
