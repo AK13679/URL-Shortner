@@ -15,9 +15,9 @@ app.use(express.json());
 
 app.use("/", urlRoutes);
 
-app.listen(5000, () => {
-    console.log("Server running on 5000") 
-});
+// app.listen(5000, () => {
+//     console.log("Server running on 5000") 
+// });
 
 mongoose.connect(process.env.MONGO_URI).then(()=> {
     console.log("Connected to MongoDB")

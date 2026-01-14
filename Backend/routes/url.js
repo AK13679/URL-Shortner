@@ -47,9 +47,7 @@ router.post("/shorten", async(req, res)=>
 })
 
 
-
-
-router.get("/shortId", async(req, res) =>
+router.get("/:shortId", async(req, res) =>
 {
     try{
         const { shortId } = req.params;
